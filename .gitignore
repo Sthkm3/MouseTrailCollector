@@ -1,0 +1,17 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/MemoryCaptures/
+/UserSettings/
+.vs/
+.gradle/
+ExportedObj/
+*.csproj
+*.unitypackage
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.DS_Store
