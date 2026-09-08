@@ -2402,6 +2402,9 @@ GameObject:
   - component: {fileID: 577747342}
   - component: {fileID: 577747341}
   - component: {fileID: 577747340}
+  - component: {fileID: 577747343}
+  - component: {fileID: 577747344}
+  - component: {fileID: 577747345}
   m_Layer: 5
   m_Name: Notice_L
   m_TagString: Untagged
@@ -2498,6 +2501,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577747338}
   m_CullTransparentMesh: 1
+--- !u!114 &577747343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577747338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d001489e65da58842bfcddcb83db1c54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IDManager
+  inputField: {fileID: 1976532343}
+  modeStatusText: {fileID: 260641034}
+--- !u!114 &577747344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577747338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde79346c17b5f2459fc8a237791b65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResolutionDisplay
+  resolutionText: {fileID: 801092282}
+--- !u!114 &577747345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577747338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20bda67a74291514cac9cd232e2093ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PollingRate
 --- !u!1 &590569044
 GameObject:
   m_ObjectHideFlags: 0
@@ -4859,8 +4901,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291611852
-  m_fontColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    rgba: 4293322470
+  m_fontColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6304,7 +6346,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\t\u672C\u5C08\u6848\u65E8\u5728\u900F\u904E\u5927\u898F\u6A21\u63A1\u96C6\u771F\u5BE6\u73A9\u5BB6\u7684\u8F38\u5165\u884C\u70BA\u6578\u64DA\uFF0C\u5EFA\u7ACB\u5206\u6790\u6A21\u578B\u4EE5\u8B58\u5225\u8207\u5C0D\u6297\u904A\u6232\u4E2D\u7684
-    AI \u8996\u89BA\u884C\u8F14\u52A9\u5916\u639B\u3002\u76F8\u95DC\u7814\u7A76\u6210\u679C\u8207\u6578\u64DA\u5206\u6790\u9810\u8A08\u5C07\u4F5C\u70BA\u5B78\u8853\u8AD6\u6587\u8207\u958B\u6E90\u9632\u8B77\u6A5F\u5236\u7684\u57FA\u790E\u3002"
+    AI \u8996\u89BA\u578B\u8F14\u52A9\u5916\u639B\u3002\u76F8\u95DC\u7814\u7A76\u6210\u679C\u8207\u6578\u64DA\u5206\u6790\u9810\u8A08\u5C07\u4F5C\u70BA\u5B78\u8853\u8AD6\u6587\u8207\u958B\u6E90\u9632\u8B77\u6A5F\u5236\u7684\u57FA\u790E\u3002"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a90984eb310cd5a449f31c00582b648a, type: 2}
   m_sharedMaterial: {fileID: 2808115657558496897, guid: a90984eb310cd5a449f31c00582b648a, type: 2}
@@ -8499,7 +8541,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 590569045}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6063342
+  m_Size: 0.6059791
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
